@@ -1,6 +1,9 @@
 
 reqirement:
-reqirement.txt
+pytorch, python and some basic packages.
+
+command segments setting is coded in 'solver.py'
+Time logs are coded as well, have fun to run the code!
 
 ## Get Started
 1. Install Python 3.6, PyTorch >= 1.4.0. 
@@ -8,7 +11,7 @@ reqirement.txt
 2. Download data. You can obtain four benchmarks from [Google Cloud](https://drive.google.com/drive/folders/1gisthCoE-RrKJ0j3KPV7xiibhHWT9qRm?usp=sharing). **All the datasets are well pre-processed**. For the SWaT dataset, you can apply for it by following its official tutorial.
 3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder `./scripts`. You can reproduce the experiment results as follows:
 
-Here, I write other command in '.sh' documents, you can run them.
+Here, I write other commands in '.sh' documents, you can run them.
 
 ```bash
 bash ./scripts/SMD.sh
@@ -16,9 +19,6 @@ bash ./scripts/MSL.sh
 bash ./scripts/SMAP.sh
 bash ./scripts/PSM.sh
 ``
-
-
-
 
 ```
 @inproceedings{
