@@ -1,7 +1,5 @@
 
-reqirement:
-
-pytorch, python and some basic packages.
+reqirement:pytorch, python and some basic packages.
 
 command segments setting is coded in 'solver.py'
 
