@@ -1,0 +1,29 @@
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/MSL	dataset:MSL	input_c:55	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:55	pretrained_model:20	win_size:100
+test_pred time:14.494232416152954
+pred:(73700,)
+gt:(73700,)
+pred_speed:5084.7812/s
+Threshold:0.0058127096854150295
+final_score: Accuracy:0.9878  Precision:0.9195  Recall:0.9690  F-score:0.9436
+all time cost:17.77489686012268
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/SMAP	dataset:SMAP	input_c:25	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:25	pretrained_model:20	win_size:100
+test_pred time:31.478354454040527
+pred:(427600,)
+gt:(427600,)
+pred_speed:13583.9375/s
+Threshold:0.003498492117505509
+final_score: Accuracy:0.9907  Precision:0.9363  Recall:0.9954  F-score:0.9649
+all time cost:35.23262095451355
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/WSD	dataset:WSD	input_c:1	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:1	pretrained_model:None	win_size:100
+epoch1cost time:1839.0927634239197
+epoch1detail: train_steps14832 train_loss:-48.84769429036586 vali_loss1:-48.995547143088736
+epoch2cost time:1829.5617938041687
+epoch2detail: train_steps14832 train_loss:-49.01044936241841 vali_loss1:-48.98828123662232
+epoch3cost time:1829.951132774353
+epoch3detail: train_steps14832 train_loss:-49.012554298841195 vali_loss1:-49.01315597115355
+train time:7147.261429071426
+all time cost:7154.946455001831
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/WSD	dataset:WSD	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100

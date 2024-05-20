@@ -1,0 +1,79 @@
+	anormly_ratio:0.5	batch_size:256	data_path:dataset/SMD	dataset:SMD	input_c:38	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:10	output_c:38	pretrained_model:None	win_size:100
+epoch1cost time:10.44667911529541
+epoch1detail: train_steps28 train_loss:-21.915125165666854 vali_loss1:-23.740879467555455
+epoch2cost time:3.416790008544922
+epoch2detail: train_steps28 train_loss:-32.864779881068635 vali_loss1:-40.04075459071568
+epoch3cost time:3.3866982460021973
+epoch3detail: train_steps28 train_loss:-42.31352383749826 vali_loss1:-42.33805969783238
+epoch4cost time:3.3890621662139893
+epoch4detail: train_steps28 train_loss:-43.636508805411204 vali_loss1:-42.97253731318882
+Early stopping
+train time:25.155285596847534
+all time cost:28.74665594100952
+
+	anormly_ratio:0.5	batch_size:256	data_path:dataset/SMD	dataset:SMD	input_c:38	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:38	pretrained_model:20	win_size:100
+test_pred time:3.9179208278656006
+pred:(708400,)
+gt:(708400,)
+pred_speed:180810.1876/s
+Threshold:0.15528236642479856
+final_score: Accuracy0.9915  Precision:0.8879  Recall:0.9109  F-score:0.8993
+all time cost:7.808285713195801
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/MSL	dataset:MSL	input_c:55	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:55	pretrained_model:None	win_size:100
+epoch1cost time:35.12079048156738
+epoch1detail: train_steps228 train_loss:-42.20929803346333 vali_loss1:-45.61791194147534
+epoch2cost time:28.313799381256104
+epoch2detail: train_steps228 train_loss:-47.60156726837158 vali_loss1:-46.16484717528025
+epoch3cost time:28.329580545425415
+epoch3detail: train_steps228 train_loss:-47.91169914446379 vali_loss1:-46.33838983376821
+train time:127.14658308029175
+all time cost:128.75691103935242
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/MSL	dataset:MSL	input_c:55	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:55	pretrained_model:20	win_size:100
+test_pred time:11.125654458999634
+pred:(73700,)
+gt:(73700,)
+pred_speed:6624.3294/s
+Threshold:0.005216766255907712
+final_score: Accuracy0.9870  Precision:0.9178  Recall:0.9629  F-score:0.9398
+all time cost:12.823903560638428
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/SMAP	dataset:SMAP	input_c:25	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:25	pretrained_model:None	win_size:100
+epoch1cost time:72.53486323356628
+epoch1detail: train_steps528 train_loss:-44.810068386973754 vali_loss1:-47.183609868809135
+epoch2cost time:65.48240280151367
+epoch2detail: train_steps528 train_loss:-47.90172040101254 vali_loss1:-47.79820463900081
+epoch3cost time:65.51816415786743
+epoch3detail: train_steps528 train_loss:-48.16976470658273 vali_loss1:-47.96296084855131
+train time:396.58217120170593
+all time cost:398.52453899383545
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/SMAP	dataset:SMAP	input_c:25	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:25	pretrained_model:20	win_size:100
+test_pred time:20.977128505706787
+pred:(427600,)
+gt:(427600,)
+pred_speed:20384.1055/s
+Threshold:0.001986988680437127
+final_score: Accuracy0.9906  Precision:0.9359  Recall:0.9949  F-score:0.9645
+all time cost:23.11419987678528
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/PSM	dataset:PSM	input_c:25	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:25	pretrained_model:None	win_size:100
+epoch1cost time:70.02281737327576
+epoch1detail: train_steps518 train_loss:-44.92720663225329 vali_loss1:-47.936221620431795
+epoch2cost time:64.29664039611816
+epoch2detail: train_steps518 train_loss:-48.277462815686086 vali_loss1:-48.47058016496219
+epoch3cost time:64.3028016090393
+epoch3detail: train_steps518 train_loss:-48.68803704015076 vali_loss1:-48.70037243456604
+train time:239.61661767959595
+all time cost:243.96466898918152
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/PSM	dataset:PSM	input_c:25	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:25	pretrained_model:20	win_size:100
+test_pred time:19.812474489212036
+pred:(87800,)
+gt:(87800,)
+pred_speed:4431.5514/s
+Threshold:0.0037832153658382424
+final_score: Accuracy0.9862  Precision:0.9729  Recall:0.9774  F-score:0.9751
+all time cost:24.01747965812683
+

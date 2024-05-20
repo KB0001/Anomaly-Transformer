@@ -1,0 +1,144 @@
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:1	pretrained_model:None	win_size:100
+epoch1cost time:218.13683319091797
+epoch1detail: train_steps1103 train_loss:-46.644904376157065 vali_loss1:70.20973343244741
+epoch2cost time:217.6521327495575
+epoch2detail: train_steps1103 train_loss:-48.2000809165422 vali_loss1:66.45922470764376
+epoch3cost time:217.69689011573792
+epoch3detail: train_steps1103 train_loss:-48.22173784174707 vali_loss1:68.07274771911997
+train time:878.5546391010284
+all time cost:881.4838783740997
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:58.18923616409302
+pred:(290700,)
+gt:(290700,)
+pred_speed:4995.7693/s
+Threshold:8.443246102274315e-12
+final_score: Accuracy:0.9846  Precision:0.0930  Recall:0.1582  F-score:0.1171
+test_pred time:58.18923616409302
+pred_a:(290700,)
+gt_a:(290700,)
+pred_speed:4995.7693/s
+Threshold:8.443246102274315e-12
+after adjust:
+final_score_a: Accuracy_a:0.9846  Precision_a:0.0930  Recall_a:0.1582  F-score_a:0.1171
+all time cost:62.22422981262207
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:train	model_save_path:checkpoints	num_epochs:3	output_c:1	pretrained_model:None	win_size:100
+epoch1cost time:62.928319215774536
+epoch1detail: train_steps310 train_loss:-43.06874428410684 vali_loss1:-47.890930643389304
+epoch2cost time:61.06553030014038
+epoch2detail: train_steps310 train_loss:-47.71665658027895 vali_loss1:-48.25346440961284
+epoch3cost time:61.20789289474487
+epoch3detail: train_steps310 train_loss:-48.02762282586867 vali_loss1:-48.39235850918678
+train time:246.97366786003113
+all time cost:249.6696469783783
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:17.33100700378418
+pred:(79300,)
+gt:(79300,)
+pred_speed:4575.6141/s
+Threshold:0.00034484592470106966
+final_score: Accuracy:0.9908  Precision:0.9161  Recall:1.0000  F-score:0.9562
+test_pred time:17.33100700378418
+pred_a:(79300,)
+gt_a:(79300,)
+pred_speed:4575.6141/s
+Threshold:0.00034484592470106966
+after adjust:
+final_score_a: Accuracy_a:0.9908  Precision_a:0.9161  Recall_a:1.0000  F-score_a:0.9562
+all time cost:20.25627899169922
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:16.848653316497803
+pred:(79300,)
+gt:(79300,)
+pred_speed:4706.6076/s
+Threshold:0.00034484592470106966
+final_score: Accuracy:0.8916  Precision:0.0957  Recall:0.0097  F-score:0.0176
+all time cost:19.98826289176941
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:/hpc2hdd/home/kwang425/Anomaly-Transformer-main/checkpoints/Yahoo_checkpoint.pth	win_size:100
+test_pred time:57.89128303527832
+pred:(290700,)
+gt:(290700,)
+pred_speed:5021.4814/s
+Threshold:8.443246102274315e-12
+final_score: Accuracy:0.9836  Precision:0.0058  Recall:0.0091  F-score:0.0071
+all time cost:61.31117105484009
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:57.727365493774414
+pred:(290700,)
+gt:(290700,)
+pred_speed:5035.7399/s
+Threshold:8.443246102274315e-12
+final_score: Accuracy:0.9836  Precision:0.0058  Recall:0.0091  F-score:0.0071
+all time cost:60.33801984786987
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:/hpc2hdd/home/kwang425/Anomaly-Transformer-main/checkpoints/NAB_checkpoint.pth	win_size:100
+test_pred time:24.662532329559326
+pred:(79300,)
+gt:(79300,)
+pred_speed:3215.4038/s
+Threshold:0.00034484592470106966
+final_score: Accuracy:0.8916  Precision:0.0957  Recall:0.0097  F-score:0.0176
+all time cost:27.511900186538696
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:58.548882246017456
+pred:(290700,)
+gt:(290700,)
+pred_speed:4965.0820/s
+Threshold:8.443246102274315e-12
+final_score: Accuracy:0.9846  Precision:0.0930  Recall:0.1582  F-score:0.1171
+all time cost:68.57024550437927
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:17.05451273918152
+pred:(79300,)
+gt:(79300,)
+pred_speed:4649.7957/s
+Threshold:0.00034484592470106966
+final_score: Accuracy:0.9908  Precision:0.9161  Recall:1.0000  F-score:0.9562
+all time cost:24.928524494171143
+
+
+--------------------------
+	anormly_ratio:0.5	batch_size:256	data_path:dataset/SMD	dataset:SMD	input_c:38	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:38	pretrained_model:20	win_size:100
+test_pred time:5.7395243644714355
+pred:(708400,)
+gt:(708400,)
+pred_speed:123424.8615/s
+Threshold:0.1180954789742826
+final_score: Accuracy:0.9917  Precision:0.8869  Recall:0.9163  F-score:0.9014
+all time cost:12.628133535385132
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/Yahoo	dataset:Yahoo	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:59.35846185684204
+pred:(290700,)
+gt:(290700,)
+pred_speed:4897.3641/s
+Threshold:8.443246102274315e-12
+final_score: Accuracy:0.9846  Precision:0.0930  Recall:0.1582  F-score:0.1171
+all time cost:63.073601961135864
+
+	anormly_ratio:1.0	batch_size:256	data_path:/hpc2hdd/home/kwang425/dataset/processing_data/AT/NAB	dataset:NAB	input_c:1	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:1	pretrained_model:20	win_size:100
+test_pred time:18.892184495925903
+pred:(79300,)
+gt:(79300,)
+pred_speed:4197.5029/s
+Threshold:0.00034484592470106966
+final_score: Accuracy:0.9908  Precision:0.9161  Recall:1.0000  F-score:0.9562
+all time cost:22.268229484558105
+
+	anormly_ratio:1.0	batch_size:256	data_path:dataset/PSM	dataset:PSM	input_c:25	k:3	lr:0.0001	mode:test	model_save_path:checkpoints	num_epochs:10	output_c:25	pretrained_model:20	win_size:100
+test_pred time:30.19977617263794
+pred:(87800,)
+gt:(87800,)
+pred_speed:2907.3063/s
+Threshold:0.0044205683376639954
+final_score: Accuracy:0.9864  Precision:0.9733  Recall:0.9779  F-score:0.9756
+all time cost:36.321808099746704
+
