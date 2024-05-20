@@ -1,15 +1,24 @@
 
+reqirement:
+reqirement.txt
+
 ## Get Started
 1. Install Python 3.6, PyTorch >= 1.4.0. 
 (Thanks Élise for the contribution in solving the environment. See this [issue](https://github.com/thuml/Anomaly-Transformer/issues/11) for details.)
 2. Download data. You can obtain four benchmarks from [Google Cloud](https://drive.google.com/drive/folders/1gisthCoE-RrKJ0j3KPV7xiibhHWT9qRm?usp=sharing). **All the datasets are well pre-processed**. For the SWaT dataset, you can apply for it by following its official tutorial.
 3. Train and evaluate. We provide the experiment scripts of all benchmarks under the folder `./scripts`. You can reproduce the experiment results as follows:
+
+Here, I write other command in '.sh' documents, you can run them.
+
 ```bash
 bash ./scripts/SMD.sh
 bash ./scripts/MSL.sh
 bash ./scripts/SMAP.sh
 bash ./scripts/PSM.sh
 ``
+
+
+
 
 ```
 @inproceedings{
